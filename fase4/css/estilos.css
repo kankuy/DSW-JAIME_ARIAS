@@ -1,0 +1,117 @@
+.encabezado {
+    background: #61764B;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background: #9BA17B;
+}
+
+ul, ol {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu {
+    padding: 0px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu>li {
+    float: left;
+}
+
+.menu li a {
+    background-color: black;
+    color: #9BA17B;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: chocolate;
+}
+
+.menu li ul {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover>ul {
+    display: block;
+}
+
+.menu li ul li {
+    position: relative;
+}
+
+.menu li ul li ul {
+    right: 140px;
+}
+
+.contenedor {
+    background-color: #CFB997;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+}
+
+.principal {
+    background-color: #9BA17B;
+    grid-column: 1/4;
+    padding: 20px;
+}
+
+.lateral {
+    background-color: #CFB997;
+    padding: 10px;
+    grid-column: 4/5
+}
+
+.pie {
+    background-color: #FAD6A5;
+    padding: 30px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 30px;
+
+}
+
+.iframe {
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+}
+
+.mio {
+    text-align: center;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+
+}
